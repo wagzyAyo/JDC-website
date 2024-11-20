@@ -1,0 +1,1 @@
+alert(`Welcome to Jennifer Dede's Clothing`)
