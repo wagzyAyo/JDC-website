@@ -1,1 +1,1 @@
-alert(`Welcome to Jennifer Dede's Clothing`)
+// alert(`Welcome to Jennifer Dede's Clothing`)
