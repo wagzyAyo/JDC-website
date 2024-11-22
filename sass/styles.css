@@ -27,4 +27,24 @@ section nav img {
 .hero-section .hero-description {
   max-width: 456px;
   margin-top: 20px;
+}
+
+.other-section {
+  margin-top: 40px;
+  padding: 0 10%;
+}
+
+.title h2 {
+  font-weight: 400;
+}
+
+.swiper {
+  width: 600px;
+  height: 400px;
+}
+
+.swiper-slide {
+  width: 264px;
+  height: 273px;
+  background-color: #D9D9D9;
 }/*# sourceMappingURL=styles.css.map */
