@@ -1,10 +1,7 @@
 // alert(`Welcome to Jennifer Dede's Clothing`)
 document.addEventListener('DOMContentLoaded', function (){
-    const swiper = new Swiper('.swiper', {
-        slidePerView : 1,
-        spaceBetween: 20,
-     
-     
+    const swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
        
          // Navigation arrows
          navigation: {
@@ -12,12 +9,18 @@ document.addEventListener('DOMContentLoaded', function (){
            prevEl: '.swiper-button-prev',
          },
      
-         breakPoint: {
+         breakpoints: {
+            450:{
+                slidesPerView: 1,
+            },
              768: {
-                 slidePerView: 2,
+                 slidesPerView: 2,
              },
              1024: {
-                 slidePerView: 3,
+                 slidesPerView: 3,
+             },
+             1300: {
+                slidesPerView: 4
              }
          }
        
