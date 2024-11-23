@@ -66,7 +66,15 @@ section{
   .swiper-slide {
     max-width: 264px;
     max-height: 273px ;
+    position: relative;
     background-color: #D9D9D9;
+    overflow: hidden;
+    img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
   }
 
 .about-box{
