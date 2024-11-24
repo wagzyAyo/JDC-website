@@ -23,10 +23,25 @@ section{
     flex-wrap: wrap;
 
     .img-hero{
-        max-width: 299px;
+        max-width: 239px;
+        max-height: 299px;
+        transition: all 10s ease-in-out;
+        cursor: pointer;
+        .img-hero-2{
+            display: none;
+        }
+        &:hover{
+            .img-hero-2{
+                display: block;
+            }
+            .img-hero-1{
+                display: none;
+            }
+        }
     }
 
     .img-hero img{
+        
         width: 100%;
     }
     .hero-description{

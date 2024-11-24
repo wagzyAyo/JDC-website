@@ -20,7 +20,19 @@ section nav img {
   flex-wrap: wrap;
 }
 .hero-section .img-hero {
-  max-width: 299px;
+  max-width: 239px;
+  max-height: 299px;
+  transition: all 10s ease-in-out;
+  cursor: pointer;
+}
+.hero-section .img-hero .img-hero-2 {
+  display: none;
+}
+.hero-section .img-hero:hover .img-hero-2 {
+  display: block;
+}
+.hero-section .img-hero:hover .img-hero-1 {
+  display: none;
 }
 .hero-section .img-hero img {
   width: 100%;
