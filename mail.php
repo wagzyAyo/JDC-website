@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $location = $_POST["location"]
 
     $from = "jmcvibes@gmail.com"; 
-    $to = "ajacctinglens@gmail.com";
+    $to = "talktojmcvibes@gmail.com";
     $subject = "New message from $name";
     $body = "Name: $name\nEmail: $email\n\nphone Number: $phone\n\nage: $age\n\n\n\ngender: $gender\n\nlocation: $location";
 
