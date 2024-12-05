@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +15,9 @@ section{
 
     }
 }
-
+main{
+    flex: 1;
+}
 .hero-section{
     display: flex;
     width: 100%;
@@ -80,6 +85,7 @@ section{
     padding: 0 10%;
     max-width: 1024px;
     height: 400px;
+    overflow: hidden;
     .swiper-button-prev, & .swiper-button-next{
         width: 40px;
         height: 40px;
@@ -94,6 +100,7 @@ section{
         color: #000000;
     }
   }
+
   .swiper-slide {
     max-width: 264px;
     max-height: 273px ;

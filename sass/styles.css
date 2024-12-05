@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,6 +11,10 @@ body {
 section nav img {
   width: 44px;
   height: auto;
+}
+
+main {
+  flex: 1;
 }
 
 .hero-section {
@@ -73,6 +80,7 @@ section nav img {
   padding: 0 10%;
   max-width: 1024px;
   height: 400px;
+  overflow: hidden;
 }
 .swiper-container .swiper-button-prev, .swiper-container .swiper-button-next {
   width: 40px;
